@@ -3,9 +3,14 @@
 
 int main()
 {
-  int c = 9;
-  int *pc = &c;
+  printf("Guess the number!\n");
 
-  printf("c: %d\n", *pc);
+  printf("Please enter a number.\n");
+
+  int guess = 0;
+
+  scanf("%d", &guess);
+
+  printf("You guessed: %d\n", guess);
   return 0;
 }
